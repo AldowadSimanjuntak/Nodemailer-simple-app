@@ -29,5 +29,24 @@ const sendMail = (to, subject, text) => {
     })
 }
 
+const sendMailHTML = (to, subject, html) => {
+    const mailOptions = {
+        from: process.env.GMAIL_USERNAME,
+        to,
+        subject,
+        html
+    } 
+    transporter.sendMail(mailOptions, (err, info) => {
+        if(err){
+            console.log(error)
+        }else{
+            console.log('Email sent: ' + info.response)
+        }
+    })
+}
 
-module.exports = sendMail;
+
+module.exports = {
+    sendMail,
+    sendMailHTML
+}

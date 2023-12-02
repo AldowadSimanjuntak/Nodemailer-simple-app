@@ -18,7 +18,7 @@ app.post('/register', (req, res) => {
         console.log(err);
       }
       else{
-        sendMailHTML(email, `Halo ${name}`, data)
+        sendMailHTML(email, `Halo User ${name}`, data)
       }
      })
   

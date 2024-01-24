@@ -1,4 +1,4 @@
-# Nodemailer Simple App
+## Nodemailer Simple App
 
 Nodemailer Simple App is a Node.js application that demonstrates how to send emails securely using the Nodemailer library, Gmail SMTP, and OAuth2 authentication.
 
@@ -35,3 +35,7 @@ the application will running in http://localhost:3000
 ## References :
 1. [Sending Emails Securely using Node.js, Nodemailer, SMTP, Gmail, and OAuth2](https://dev.to/chandrapantachhetri/sending-emails-securely-using-node-js-nodemailer-smtp-gmail-and-oauth2-g3a)
 2. [Using Nodemailer with Google OAuth](https://stackoverflow.com/questions/51342952/using-nodemailer-with-google-oauth)
+
+
+## Contributions :
+You can expand this project you like, this is open source

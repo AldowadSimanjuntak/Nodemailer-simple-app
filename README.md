@@ -37,5 +37,11 @@ the application will running in http://localhost:3000
 2. [Using Nodemailer with Google OAuth](https://stackoverflow.com/questions/51342952/using-nodemailer-with-google-oauth)
 
 
-## Contributions :
-You can expand this project you like, this is open source
+## Contribution
+Feel free to explore the codebase and documentation to gain a deeper understanding of the project.
+
+For any questions or further information, please reach out me
+
+Thank you for visiting the repository!
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
